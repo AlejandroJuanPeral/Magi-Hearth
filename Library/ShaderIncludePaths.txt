@@ -1,0 +1,4 @@
+C:\Users\Alex\Documents\GitHub\Magi-Hearth2\Library\PackageCache\com.unity.postprocessing@2.0.11-preview
+C:\Users\Alex\Documents\GitHub\Magi-Hearth2\Library\PackageCache\com.unity.render-pipelines.core@3.3.0-preview
+C:\Users\Alex\Documents\GitHub\Magi-Hearth2\Library\PackageCache\com.unity.render-pipelines.high-definition@3.3.0-preview
+C:\Users\Alex\Documents\GitHub\Magi-Hearth2\Library\PackageCache\com.unity.shadergraph@3.3.0-preview
