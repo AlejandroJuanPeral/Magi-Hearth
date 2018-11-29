@@ -1,66 +1,80 @@
 Base path: E:/Programas/Unity 2018.3.0b11/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=17769 ok=1
+  api=4 insize=14563 outsize=32157 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=35997 ok=1
+  api=4 insize=14563 outsize=37505 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=20493 ok=1
+  api=4 insize=14563 outsize=44101 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=26973 ok=1
+  api=4 insize=14563 outsize=31145 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=18961 ok=1
+  api=4 insize=14563 outsize=59573 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=20221 ok=1
+  api=4 insize=14563 outsize=41129 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=45189 ok=1
+  api=4 insize=14563 outsize=58417 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=31989 ok=1
+  api=4 insize=14563 outsize=36101 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=20641 ok=1
+  api=4 insize=14563 outsize=36165 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=12989 outsize=31685 ok=1
+  api=4 insize=14563 outsize=88797 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=26252 outsize=16081 ok=1
+  api=4 insize=27388 outsize=15525 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=2780 outsize=48145 ok=1
+  api=4 insize=7616 outsize=4897 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=5004 outsize=9129 ok=1
+  api=4 insize=6534 outsize=6497 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=2351 outsize=2561 ok=1
+  api=4 insize=1611 outsize=961 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=11550 outsize=9925 ok=1
+  api=4 insize=19561 outsize=13729 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=9166 outsize=8909 ok=1
+  api=4 insize=2595 outsize=2573 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=2868 outsize=897 ok=1
+  api=4 insize=20843 outsize=95037 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=18713 outsize=14241 ok=1
+  api=4 insize=35447 outsize=34505 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=19653 outsize=27013 ok=1
+  api=4 insize=35447 outsize=32069 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=32694 outsize=45957 ok=1
+  api=4 insize=8512 outsize=2945 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=7414 outsize=2077 ok=1
+  api=4 insize=16636 outsize=7029 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16048 outsize=14129 ok=1
+  error: 1 plat 4 at Sort.compute(147): loop only executes for 1 iteration(s), forcing loop to unroll
+  error: 1 plat 4 at Sort.compute(200): loop only executes for 1 iteration(s), forcing loop to unroll
+  api=4 insize=10029 outsize=2481 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=5113 ok=1
+  api=4 insize=17177 outsize=6121 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=5929 ok=1
+  api=4 insize=17177 outsize=6625 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7485 ok=1
+  api=4 insize=17177 outsize=8469 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7789 ok=1
+  api=4 insize=17177 outsize=9301 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=6181 ok=1
+  api=4 insize=17177 outsize=7069 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7573 ok=1
+  api=4 insize=17177 outsize=8849 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7765 ok=1
+  api=4 insize=17177 outsize=8277 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=9485 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=10245 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=2845 outsize=4189 ok=1
+  api=4 insize=17177 outsize=10245 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
