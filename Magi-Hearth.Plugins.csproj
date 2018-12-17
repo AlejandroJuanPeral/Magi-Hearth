@@ -618,6 +618,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}</Project>
+      <Name>Unity.ProGrids</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{A1B3D246-CBF8-5C7A-7D07-73F07D9A0972}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
@@ -625,6 +629,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{DF88BCE8-B64F-969D-3C39-F0C65EF04F6B}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
+      <Project>{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}</Project>
+      <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
       <Project>{CBCB4456-0002-6059-62B9-7911594C8F27}</Project>
@@ -896,6 +904,12 @@
     <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Sampling.hlsl" />
     <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\StdLib.hlsl" />
     <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\xRLib.hlsl" />
+    <None Include="Packages\com.unity.progrids\Editor\Unity.ProGrids.Editor.asmdef" />
+    <None Include="Packages\com.unity.progrids\Font\SIL Open Font License.txt" />
+    <None Include="Packages\com.unity.progrids\Runtime\Unity.ProGrids.asmdef" />
+    <None Include="Packages\com.unity.progrids\Shader\GridShader.shader" />
+    <None Include="Packages\com.unity.progrids\Tests\Editor\Unity.ProGrids.EditorTests.asmdef" />
+    <None Include="Packages\com.unity.progrids\Tests\Runtime\Unity.ProGrids.RuntimeTests.asmdef" />
     <None Include="Packages\com.unity.render-pipelines.core\Editor\Unity.RenderPipelines.Core.Editor.asmdef" />
     <None Include="Packages\com.unity.render-pipelines.core\Runtime\Unity.RenderPipelines.Core.Runtime.asmdef" />
     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\D3D11.hlsl" />

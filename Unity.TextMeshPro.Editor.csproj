@@ -857,6 +857,12 @@
     <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Sampling.hlsl" />
     <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\StdLib.hlsl" />
     <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\xRLib.hlsl" />
+    <None Include="Packages\com.unity.progrids\Editor\Unity.ProGrids.Editor.asmdef" />
+    <None Include="Packages\com.unity.progrids\Font\SIL Open Font License.txt" />
+    <None Include="Packages\com.unity.progrids\Runtime\Unity.ProGrids.asmdef" />
+    <None Include="Packages\com.unity.progrids\Shader\GridShader.shader" />
+    <None Include="Packages\com.unity.progrids\Tests\Editor\Unity.ProGrids.EditorTests.asmdef" />
+    <None Include="Packages\com.unity.progrids\Tests\Runtime\Unity.ProGrids.RuntimeTests.asmdef" />
     <None Include="Packages\com.unity.render-pipelines.core\Editor\Unity.RenderPipelines.Core.Editor.asmdef" />
     <None Include="Packages\com.unity.render-pipelines.core\Runtime\Unity.RenderPipelines.Core.Runtime.asmdef" />
     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\D3D11.hlsl" />
