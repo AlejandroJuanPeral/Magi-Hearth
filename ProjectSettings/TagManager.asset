@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fire
   - PuzzleParts
+  - Crystals
+  - Liquid
   layers:
   - Default
   - TransparentFX
