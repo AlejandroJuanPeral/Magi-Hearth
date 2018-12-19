@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2291221203240753644}
+  - component: {fileID: 596679539}
   m_Layer: 5
   m_Name: Grifo
   m_TagString: Untagged
@@ -41,6 +42,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &596679539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371615342150297599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6623a51af140e9459a75e6d36dee04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parts:
+  - {fileID: 6159027402386894917}
+  - {fileID: 5234015040263271978}
+  - {fileID: 4391858818680968566}
+  - {fileID: 3077206392188759532}
+  - {fileID: 3700209986143775626}
+  - {fileID: 5673576777708098534}
 --- !u!1 &3077206392188759532
 GameObject:
   m_ObjectHideFlags: 0
@@ -53,9 +73,10 @@ GameObject:
   - component: {fileID: 914599394569045178}
   - component: {fileID: 912487059239450374}
   - component: {fileID: 5969048444973873563}
+  - component: {fileID: 4964241948380688301}
   m_Layer: 5
   m_Name: Cabeza
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +151,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteOn: {fileID: 21300006, guid: 06f8981cc67ef0d44b31a16fec47e29a, type: 3}
   SpriteOff: {fileID: 21300006, guid: 9045d920e59610c40b0cf5d52a6ba12a, type: 3}
+  Puzzle: {fileID: 1371615342150297599}
+--- !u!65 &4964241948380688301
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077206392188759532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.82, y: 2.53, z: 0.15}
+  m_Center: {x: -0.25, y: 0.3, z: 0}
 --- !u!1 &3700209986143775626
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,9 +177,10 @@ GameObject:
   - component: {fileID: 5279473159686257092}
   - component: {fileID: 7127741166285982670}
   - component: {fileID: 7021082011904553427}
+  - component: {fileID: 3665738654169314619}
   m_Layer: 5
   m_Name: Cola
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,6 +255,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteOn: {fileID: 21300008, guid: 06f8981cc67ef0d44b31a16fec47e29a, type: 3}
   SpriteOff: {fileID: 21300008, guid: 9045d920e59610c40b0cf5d52a6ba12a, type: 3}
+  Puzzle: {fileID: 1371615342150297599}
+--- !u!65 &3665738654169314619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3700209986143775626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.82, y: 2.1, z: 0.15}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4391858818680968566
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,9 +281,10 @@ GameObject:
   - component: {fileID: 4468205089700527240}
   - component: {fileID: 7684763844664754896}
   - component: {fileID: 7253776809311150834}
+  - component: {fileID: 5627331315221325288}
   m_Layer: 5
   m_Name: Alas
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,6 +359,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteOn: {fileID: 21300002, guid: 06f8981cc67ef0d44b31a16fec47e29a, type: 3}
   SpriteOff: {fileID: 21300002, guid: 9045d920e59610c40b0cf5d52a6ba12a, type: 3}
+  Puzzle: {fileID: 1371615342150297599}
+--- !u!65 &5627331315221325288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391858818680968566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.39, y: 4.36, z: 0.15}
+  m_Center: {x: 0.49, y: 0.19, z: 0}
 --- !u!1 &4424923622488078747
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +387,7 @@ GameObject:
   - component: {fileID: 4425598717351858137}
   m_Layer: 5
   m_Name: CanvasGriffo
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -419,9 +484,11 @@ GameObject:
   - component: {fileID: 269797575782311372}
   - component: {fileID: 6770350955144784784}
   - component: {fileID: 5869071127590044863}
+  - component: {fileID: 453625851844247279}
+  - component: {fileID: 6849515614153345509}
   m_Layer: 5
   m_Name: Torso
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -496,6 +563,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteOn: {fileID: 21300004, guid: 06f8981cc67ef0d44b31a16fec47e29a, type: 3}
   SpriteOff: {fileID: 21300004, guid: 9045d920e59610c40b0cf5d52a6ba12a, type: 3}
+  Puzzle: {fileID: 1371615342150297599}
+--- !u!65 &453625851844247279
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234015040263271978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.12, z: 0.15}
+  m_Center: {x: -1.23, y: 1, z: 0}
+--- !u!65 &6849515614153345509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234015040263271978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.21, y: 2.03, z: 0.15}
+  m_Center: {x: 0.6, y: -0.53, z: 0}
 --- !u!1 &5673576777708098534
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,9 +602,10 @@ GameObject:
   - component: {fileID: 1303761775993366698}
   - component: {fileID: 4157813455484457679}
   - component: {fileID: 2730354696261784399}
+  - component: {fileID: 221125977457670209}
   m_Layer: 5
   m_Name: Patas
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -570,7 +665,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
 --- !u!114 &2730354696261784399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,6 +680,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteOn: {fileID: 21300010, guid: 06f8981cc67ef0d44b31a16fec47e29a, type: 3}
   SpriteOff: {fileID: 21300010, guid: 9045d920e59610c40b0cf5d52a6ba12a, type: 3}
+  Puzzle: {fileID: 1371615342150297599}
+--- !u!65 &221125977457670209
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5673576777708098534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2, y: 2.46, z: 0.15}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6159027402386894917
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,9 +706,12 @@ GameObject:
   - component: {fileID: 1178204603339481166}
   - component: {fileID: 1209750662117965611}
   - component: {fileID: 883946513063636157}
+  - component: {fileID: 2080181209886637466}
+  - component: {fileID: 4634811263425055395}
+  - component: {fileID: 7010437246505566900}
   m_Layer: 5
   m_Name: Garras
-  m_TagString: Untagged
+  m_TagString: PuzzleParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -674,3 +786,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteOn: {fileID: 21300000, guid: 06f8981cc67ef0d44b31a16fec47e29a, type: 3}
   SpriteOff: {fileID: 21300000, guid: 9045d920e59610c40b0cf5d52a6ba12a, type: 3}
+  Puzzle: {fileID: 1371615342150297599}
+--- !u!65 &2080181209886637466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159027402386894917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8, y: 1.63, z: 0.15}
+  m_Center: {x: 0.35, y: -0.9, z: 0}
+--- !u!65 &4634811263425055395
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159027402386894917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.79, y: 1.29, z: 0.15}
+  m_Center: {x: -0.58, y: 0.51, z: 0}
+--- !u!65 &7010437246505566900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159027402386894917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 1.19, z: 0.15}
+  m_Center: {x: -1.43, y: 1.78, z: 0}
