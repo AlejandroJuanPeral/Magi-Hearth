@@ -66,8 +66,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 21110577053013758}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,7 +78,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -183,14 +182,14 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 24
+    indexCount: 0
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 16
+    vertexCount: 0
     localAABB:
-      m_Center: {x: 0, y: 0.000000029802322, z: 0.9999999}
-      m_Extent: {x: 1, y: 1, z: 0.9999999}
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -204,10 +203,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 000001000200000002000300040006000500040007000600080009000a0008000a000b000c000e000d000c000f000e00
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 2
-    m_VertexCount: 16
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
@@ -265,8 +264,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 000080bf00004034feffff3f445bf8be71443abf445bf83e93dd5f3f23a5cebe6dc3893e0000803f000000000000803f000000000000803f0000803e00007c3f0000000000000000000080bffeff7fb300008033d6000ebf3f0155bf4001d5334001553fd4000ebfd4008e330000803f000000000000803f000000000000803f0000803e0000803c00000000000000000000803ffeff7fb300008033d6000e3f3f0155bf4001d5334001553fd4000e3fd4008eb30000803f000000000000803f000000000000803f0000403f0000803c00000000000000000000803f00004034feffff3f445bf83e71443abf445bf83e93dd5f3f23a5ce3e6dc389be0000803f000000000000803f000000000000803f0000403f00007c3f0000000000000000000080bf00004034feffff3f475bf8be72443a3f415bf83e94dd5f3f1ea5ce3e6bc3893e000080bf000000000000803f000000000000803f0000803e00007c3f0000000000000000000080bffeff7fb300008033da000ebf3c01553f3d01d5b34201553fd2000e3fd2008eb3000080bf000000000000803f000000000000803f0000803e0000803c00000000000000000000803ffeff7fb300008033da000e3f3c01553f3d01d5b34201553fd2000ebfd2008e33000080bf000000000000803f000000000000803f0000403f0000803c00000000000000000000803f00004034feffff3f475bf83e72443a3f415bf83e94dd5f3f1ea5cebe6bc389be000080bf000000000000803f000000000000803f0000403f00007c3f0000000000000000000000b4f9ff7fbffeffff3f72443a3f3f5bf8be465bf83e1fa5ce3e95dd5f3f67c3893e0000803f000000000000803f000000000000803f0000803e00007c3f0000000000000000000000b4ffff7fbf000040343f01553fd5000ebfd6000e34d2000e3f4201553fbc008e320000803f000000000000803f000000000000803f0000803e0000803c000000000000000000000034fbff7f3f010080334001553fd5000e3fd6008e33d2000ebf4201553f7681f8b30000803f000000000000803f000000000000803f0000403f0000803c0000000000000000000000340000803ffeffff3f72443a3f425bf83e415bf83e22a5cebe92dd5f3f70c389be0000803f000000000000803f000000000000803f0000403f00007c3f0000000000000000000000b4f9ff7fbffeffff3f72443abf425bf8be435bf83e1aa5cebe96dd5f3f64c3893e000080bf000000000000803f000000000000803f0000803e00007c3f0000000000000000000000b4ffff7fbf000040343d0155bfd9000ebfd0008eb3cf000ebf4401553f7381f8b3000080bf000000000000803f000000000000803f0000803e0000803c000000000000000000000034fbff7f3f010080333d0155bfd8000e3fd6000eb4cf000e3f4301553fa6008e32000080bf000000000000803f000000000000803f0000403f0000803c0000000000000000000000340000803ffeffff3f72443abf455bf83e3e5bf83e1ea5ce3e94dd5f3f6ec389be000080bf000000000000803f000000000000803f0000403f00007c3f0000000000000000
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -437,7 +436,7 @@ MonoBehaviour:
     lockFlags: 0
     nodeIDs: 02000000
     parentGroupID: -1
-    childGroupIDs: 05000000
+    childGroupIDs: 
     adaptiveLODQuality: 0.8
     shadowTextureQuality: 3
     enableWelding: 1
@@ -464,104 +463,7 @@ MonoBehaviour:
       e32: 0
       e33: 1
   branchGroups: []
-  leafGroups:
-  - _uniqueID: 5
-    seed: 1234
-    _internalSeed: 2727
-    m_Hash: 
-    distributionFrequency: 1
-    distributionMode: 0
-    distributionCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    distributionNodes: 5
-    distributionTwirl: 0
-    distributionPitch: 1
-    distributionPitchCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    distributionScale: 0
-    distributionScaleCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0.3
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    showAnimationProps: 1
-    animationPrimary: 0.5
-    animationSecondary: 0.5
-    animationEdge: 1
-    visible: 1
-    lockFlags: 0
-    nodeIDs: 06000000
-    parentGroupID: 1
-    childGroupIDs: 
-    geometryMode: 1
-    materialLeaf: {fileID: 2100000, guid: 77742731eafd5a442aaa6a148f0c6cd9, type: 2}
-    instanceMesh: {fileID: 0}
-    size: {x: 1, y: 1}
-    perpendicularAlign: 1
-    horizontalAlign: 1
+  leafGroups: []
   nodes:
   - spline:
       nodes: []
