@@ -8,13 +8,13 @@ public class CauldronPuzzle : MonoBehaviour
     int numElement;
     public GameObject[] Crystals;
     public Sprite[] Runes;
-    public GameObject RuneSprite;
+    public GameObject RuneSprite, Portal;
     string[,] Puzzles;
     public int numPuzzle;
     Material material;
     Color waterColor;
     Color[] solutions = new Color[4];
-
+    
     // Start is called before the first frame update
     void Start()
     {
