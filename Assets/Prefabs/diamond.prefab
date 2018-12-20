@@ -26,8 +26,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35e11d2b8429121449516bac04643419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  c: 0
-  material: {fileID: 0}
+  c: 3
 --- !u!1001 &1841722726701823072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,11 +38,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: diamond
-      objectReference: {fileID: 0}
-    - target: {fileID: 3389708218011939495, guid: f3136f2db60c04647aa04e9458cc3502,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3389708218011939495, guid: f3136f2db60c04647aa04e9458cc3502,
         type: 3}
@@ -108,17 +102,17 @@ PrefabInstance:
     - target: {fileID: 3389708218012102279, guid: f3136f2db60c04647aa04e9458cc3502,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2500001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 3389708218012102279, guid: f3136f2db60c04647aa04e9458cc3502,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2500001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 3389708218012102279, guid: f3136f2db60c04647aa04e9458cc3502,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 3389708218012102277, guid: f3136f2db60c04647aa04e9458cc3502,
         type: 3}

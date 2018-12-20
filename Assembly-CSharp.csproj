@@ -60,8 +60,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Book-Page Curl\scripts\AutoFlip.cs" />
-    <Compile Include="Assets\Book-Page Curl\scripts\Book.cs" />
+    <Compile Include="Assets\ChangeScene.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUI.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIButton.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIData.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIImage.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUISlider.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIText.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\DontDestroy.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\EventSystemChecker.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\MenuObject.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\MenuSettings.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\Pause.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\PlayMusic.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\QuitApplication.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\SetAudioLevels.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\ShowPanels.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\StartOptions.cs" />
+    <Compile Include="Assets\Manual\scripts\AutoFlip.cs" />
+    <Compile Include="Assets\Manual\scripts\Book.cs" />
     <Compile Include="Assets\Portal\Scripts\Portal.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -78,7 +95,10 @@
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\SpriteOnOff.cs" />
+    <Compile Include="Assets\transport.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <None Include="Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
+    <None Include="Assets\Game Jam Template\README.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.ProGrids">
       <HintPath>C:/Users/Adrian/Documents/GitHub/Magi-Hearth/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>

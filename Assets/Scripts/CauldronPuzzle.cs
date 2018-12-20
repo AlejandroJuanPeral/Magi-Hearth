@@ -79,6 +79,7 @@ public class CauldronPuzzle : MonoBehaviour
         if(material.GetColor("_BaseColor") == solutions[numPuzzle])
         {
             Debug.Log("Complete");
+            Portal.SetActive(true);
         }
         else
         {
@@ -89,7 +90,7 @@ public class CauldronPuzzle : MonoBehaviour
     {
         foreach (GameObject c in Crystals)
         {
-            Debug.Log("...");
+            //Debug.Log("...");
             c.SetActive(true);
         }
         material.SetColor("_BaseColor", Color.black);

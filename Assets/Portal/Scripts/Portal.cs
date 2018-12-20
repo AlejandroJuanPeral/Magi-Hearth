@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class Portal : MonoBehaviour
@@ -105,7 +106,8 @@ public class Portal : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            Teleport();
+            //Teleport();
+            SceneManager.LoadScene("Puzzle2");
         }
     }
 
