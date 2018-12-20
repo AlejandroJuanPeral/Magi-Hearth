@@ -10,6 +10,9 @@ public class HitUI : MonoBehaviour
     void Start()
     {
         camara = GetComponent<Camera>();
+        Crystal.SetActive(true);
+        Crystal.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -37,10 +40,12 @@ public class HitUI : MonoBehaviour
                     {
                         hit.transform.gameObject.SetActive(false);
                         Crystal.SetActive(true);
+                        //Crystal.GetComponent<CristalStat>().Material = hit.collider.gameObject.GetComponent<CristalStat>().Material;
+                        Material m = hit.collider.gameObject.GetComponent<CristalStat>().Material;
                         Crystal.GetComponent<CristalStat>().c = hit.transform.gameObject.GetComponent<CristalStat>().c;
-                        Crystal.GetComponent<CristalStat>().material =hit.collider.gameObject.GetComponent<CristalStat>().material;
-                        //Material m = hit.collider.gameObject.GetComponent<CristalStat>().Material;
-                        //Crystal.GetComponent<CristalStat>().Material.SetColor("_BaseColor",/*m.GetColor("_BaseColor")*/Color.gray);
+                        Material m2 = Crystal.GetComponentInChildren<MeshRenderer>().material;
+                        m2.SetColor("_BaseColor", m.GetColor("_BaseColor"));
+
                     }
                 }
                 else if(hit.transform.tag == "Liquid")
