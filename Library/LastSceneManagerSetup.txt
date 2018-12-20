@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Caldero.unity
+- path: Assets/Scenes/ScenesDEFINITIVO/level1.unity
   isLoaded: 1
   isActive: 1

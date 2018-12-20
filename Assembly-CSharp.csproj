@@ -71,6 +71,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\CauldronPuzzle.cs" />
+    <Compile Include="Assets\Scripts\CristalStat.cs" />
     <Compile Include="Assets\Scripts\DoorPuzzle.cs" />
     <Compile Include="Assets\Scripts\HitUI.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
