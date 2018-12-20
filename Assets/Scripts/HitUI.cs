@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HitUI : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class HitUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKey(KeyCode.LeftControl)&& Input.GetKey(KeyCode.LeftAlt))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         if (Input.GetMouseButtonDown(0))
         {
             Transform cam = this.transform;
