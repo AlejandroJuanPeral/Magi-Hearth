@@ -7,9 +7,9 @@ public class CristalStat : MonoBehaviour
     public enum EnumColor { Yellow, Red, Blue, White, Black };
     public EnumColor c;
     Color crystalColor;
-    public Material material;
+    Material material;
 
-   /* public Material Material
+    public Material Material
     {
         get
         {
@@ -20,7 +20,7 @@ public class CristalStat : MonoBehaviour
         {
             material = value;
         }
-    }*/
+    }
     private void Start()
     {
         material = GetComponentInChildren<MeshRenderer>().material;
