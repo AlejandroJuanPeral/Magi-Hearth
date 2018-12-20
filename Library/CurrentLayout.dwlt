@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 109
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 110
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 64
+  controlID: 60
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -383,9 +383,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d250ffff
-      m_LastClickedID: -44846
-      m_ExpandedIDs: 7a4bffff1050fffff45dffff6463ffff7263ffffca64ffff7468ffff7668ffffc679ffff00b4ffff62b4ffff84e2ffff5ce6ffff26ebffff68ecffffa6f1ffff7ef5ffff7cf9ffffd0fbffff326c00006c6c00008e6c00009c6c0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 16eeffff92eeffffd6efffffe8efffff1cf1ffff16f2ffff92f2ffffdaf5ffff92fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -441,9 +441,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 40.12291, y: 0.5711301, z: 2.0480552}
+    m_Target: {x: -6.404354, y: 2.7237701, z: -3.9648705}
     speed: 2
-    m_Value: {x: 40.12291, y: 0.5711301, z: 2.0480552}
+    m_Value: {x: -6.404354, y: 2.7237701, z: -3.9648705}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -471,13 +471,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.011455663, y: -0.9813515, z: 0.1816193, w: 0.06190706}
+    m_Target: {x: 0.10616713, y: -0.45872653, z: 0.055312708, w: 0.8804766}
     speed: 2
-    m_Value: {x: 0.011455663, y: -0.9813515, z: 0.1816193, w: 0.06190706}
+    m_Value: {x: 0.10616713, y: -0.45872653, z: 0.055312708, w: 0.8804766}
   m_Size:
-    m_Target: 1.5511067
+    m_Target: 29.41403
     speed: 2
-    m_Value: 1.5511067
+    m_Value: 29.41403
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -643,20 +643,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Adrian\Documents\GitHub\Magi-Hearth
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 498}
-    m_SelectedIDs: 42280000
-    m_LastClickedID: 10306
-    m_ExpandedIDs: 00000000ba1600002e1a0000ce1b0000f41d0000021e0000721e0000661f0000062100004e2100005a240000ca24000090280000bc2a0000922c0000a42d0000242e0000802e0000ba2f000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 3c340000
+    m_LastClickedID: 13372
+    m_ExpandedIDs: 000000003c340000623900008a3b0000983b00000a3c0000fe3c0000a03e0000e23e0000e641000062420000324600006e480000464a00005a4b0000dc4b00003a4c0000744d00007252000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba1600002e1a0000ce1b0000f41d0000021e0000721e0000661f0000062100004e2100005a240000ca24000090280000bc2a0000922c0000a42d0000242e0000802e0000ba2f0000
+    m_ExpandedIDs: 000000003c340000623900008a3b0000983b00000a3c0000fe3c0000a03e0000e23e0000e641000062420000324600006e480000464a00005a4b0000dc4b00003a4c0000744d000072520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d2b30000d4b30000e2510000b8260000d01d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
